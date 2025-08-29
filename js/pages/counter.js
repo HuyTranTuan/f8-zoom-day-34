@@ -29,8 +29,8 @@ function Counter() {
             </span>
             <div className="counter-btn-control">
                 <button className="counter-btn" onClick={(e) => handleClick(e, "minus")}>-</button>
-                <button className="counter-btn" onClick={(e) => handleClick(e, "add")}>+</button>
                 <button className="counter-btn counter-btn-reset" onClick={(e) => handleClick(e, "reset")}>reset</button>
+                <button className="counter-btn" onClick={(e) => handleClick(e, "add")}>+</button>
             </div>
         </div>
     );
